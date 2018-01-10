@@ -15,4 +15,5 @@ results = re.findall(r'([\u4e00-\u9fa5]+)\|([A-Z]+)', stations)
 
 # 列表==》 字典
 stations = dict(results)
+
 pprint(stations, indent=4)
